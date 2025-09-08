@@ -5,7 +5,7 @@ import requests
 import streamlit as st
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 
 # ------------------------------
 # Config
